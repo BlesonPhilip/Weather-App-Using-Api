@@ -2,10 +2,47 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.weather-container{
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(165, 230, 230);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
 }
+
+.weather-info{
+  margin-top: 20px;
+}
+
+.nav{
+  border: 20px ;
+  text-align: left;
+  background-color: aquamarine;
+  margin-top: -27px;
+  
+  
+}
+.css{
+  border: 10px cadetblue;
+  border: 1px solid rgb(118, 216, 219);
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.h{
+  justify-content: center;
+  margin-bottom: 180px;
+  margin-top: 210px;
+  border-radius: 1px;
+  display: flex;
+ 
+  
+}
+
+/* 
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +72,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
