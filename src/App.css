@@ -1,75 +1,52 @@
 .App {
   text-align: center;
+  padding: 0;
 }
 
-
-.weather-container{
-  max-width: 400px;
-  margin: 20px auto;
+.weather-container {
+  max-width: 450px;
+  margin: 50px auto;
   padding: 20px;
-  background-color: rgb(165, 230, 230);
+  background-color: rgb(198, 255, 215);
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  justify-content: center;
+  /* align-items: center; */
 }
 
-.weather-info{
+.weather-info {
   margin-top: 20px;
+  justify-content: center;
 }
 
-.nav{
-  border: 20px ;
+.nav {
+  border: 20px;
   text-align: left;
-  background-color: aquamarine;
+  background-color: rgb(215, 255, 242);
   margin-top: -27px;
-  
-  
 }
-.css{
+.css {
   border: 10px cadetblue;
-  border: 1px solid rgb(118, 216, 219);
-  background-color: aquamarine;
+  border: 1px rgb(229, 254, 255);
+  background-color: rgb(222, 255, 244);
   text-align: center;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
-.h{
+.h {
   justify-content: center;
   margin-bottom: 180px;
   margin-top: 210px;
   border-radius: 1px;
   display: flex;
- 
-  
-}
-
-/* 
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
-
-.App-link {
-  color: #61dafb;
+.text-center {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
